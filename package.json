@@ -1,0 +1,56 @@
+{
+  "name": "imc_demo_rn",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/types": "latest",
+    "@expo/vector-icons": "^10.0.2",
+    "@react-native-community/async-storage": "^1.5.0",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-native": "^0.59.9",
+    "react-native-dialog": "^5.6.0",
+    "react-native-easy-grid": "^0.2.1",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-indicators": "^0.13.0",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-material-textfield": "^0.12.0",
+    "react-native-modal": "^11.0.1",
+    "react-native-modal-datetime-picker": "^7.4.2",
+    "react-native-paper": "^2.15.2",
+    "react-native-picker": "^4.3.7",
+    "react-native-picker-select": "^6.2.0",
+    "react-native-shapes": "^0.1.0",
+    "react-native-status-bar-height": "latest",
+    "react-native-touchable-scale": "^2.0.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.11.0",
+    "react-navigation-material-bottom-tabs": "^1.0.0",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "rmc-picker": "^5.0.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-native-elements": "^1.1.0",
+    "react-test-renderer": "16.8.3",
+    "redux-devtools": "^3.5.0",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
